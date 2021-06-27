@@ -15,6 +15,7 @@ public class LoginTest extends TestBase {
 
 		String title = page.getInstance(LoginPage.class).getLoginPageTitle();
 		System.out.println(title);
+				System.out.println(title);
 		Assert.assertEquals(title, "Sign In | Amil Freight");
 		/*
 		 * test=er.createTest("Login Test"); test.log(Status.PASS, "Login Passed");
